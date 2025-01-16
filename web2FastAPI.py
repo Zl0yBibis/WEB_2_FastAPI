@@ -24,7 +24,7 @@ ITEM_DB = [
 ]
 
 @app.get("/")
-async def root():
+def root():
     return {"message": "Работа FastAPI"}
 
 
